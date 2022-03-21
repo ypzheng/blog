@@ -1,0 +1,31 @@
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(218, 209, 196);
+    color: white;
+    font-weight: 600;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.icon {
+    height: 25px;
+    margin-right: 25px;
+}
+
+.home-button {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.title {
+    /* color: rgb(239, 239, 239); */
+    font-size: 20px;
+}

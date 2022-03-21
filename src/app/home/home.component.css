@@ -1,0 +1,21 @@
+.card {
+  max-width: 400px;
+}
+
+.header-image {
+  background-image: url('../../assets/IMG_0030.PNG');
+  background-size: cover;
+}
+
+.content {
+    display: flex;
+    margin: 82px auto 32px;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    margin-top: 180px;
+}
