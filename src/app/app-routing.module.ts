@@ -10,6 +10,7 @@ const routes: Routes = [
   { path: 'allPosts', component: AllpostsComponent },
   // { path: '', component: AppComponent },
   { path: '**', component: PageNotFoundComponent },
+  { path: 'featuredposts', component: PageNotFoundComponent },
 ];
 
 @NgModule({

@@ -6,10 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./allposts.component.css']
 })
 export class AllpostsComponent implements OnInit {
+  titleSelected: String = '';
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  navigate() {
+    console.log('navigating');
+  }
+
+  select(title: string) {
+    this.titleSelected = title;
+  }
 }

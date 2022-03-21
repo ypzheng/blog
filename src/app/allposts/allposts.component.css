@@ -1,0 +1,48 @@
+.card {
+  max-width: 400px;
+  border: 1px solid gray;
+  margin-bottom: 15px;
+  margin-left: 25px;
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.4);
+}
+
+.card:hover{
+  box-shadow: -1px 10px 29px 0px rgba(0,0,0,0.8);
+  cursor: pointer;
+}
+
+.buttons {
+    background-color: rgb(218, 209, 196);
+    font-weight: 600;
+    color: white;
+}
+
+.buttons:hover {
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+
+.example-header-image {
+  background-image: url('../../assets/IMG_0030.PNG');
+  background-size: cover;
+}
+
+.wrapper {
+    display: flex;
+    margin: 32px auto 32px;
+    /* margin-top: 10px; */
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    margin-top: 50px;
+}
+
+.posts {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

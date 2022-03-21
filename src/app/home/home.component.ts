@@ -16,4 +16,8 @@ export class HomeComponent implements OnInit {
   navigate2AllPosts() {
     this.router.navigateByUrl('/allPosts');
   }
+
+  navigate2Featured() {
+    this.router.navigateByUrl('/featuredposts');
+  }
 }
